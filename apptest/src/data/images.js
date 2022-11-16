@@ -1,0 +1,3 @@
+export const images = [
+    "../../src/assets/WhatsApp Image 2022-10-24 at 8.31 10.png","../../src/assets/nhnMenStaff.png","../../src/assets/WhatsApp Image 2022-10-24 at 8.31 11.png","../../src/assets/WhatsApp Image 2022-10-24 at 8.31 7.png","../../src/assets/WhatsApp Image 2022-10-24 at 8.31 12.png","../../src/assets/WhatsApp Image 2022-10-24 at 8.31 9.png","../../src/assets/ Rectangle 6.png","../../src/assets/Rectangle 6.png"
+]
