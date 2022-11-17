@@ -12,13 +12,13 @@ const Navbar = () => {
       {navLinks.map((nav, index) => {
         if (index !== 2) {
           return (
-            <p key={index} className='text-white font-medium text-xl '>{nav}</p>
+            <p key={index} className={activeLink === nav? 'text-black font-medium text-xl':'text-white font-medium text-xl'} onClick={()=>setActiveLink(nav)}>{nav}</p>
           )
         } else {
           return (
             <>
               <p className='text-3xl font-semibold mb-4 text-white flex flex-wrap'>NEW HEAVEN <br /> PROTOCOL</p>
-              <p key={index} className='text-white font-medium text-xl'>{nav}</p>
+              <p key={index} className={activeLink === nav? "text-black font-medium text-xl":"text-white font-medium text-xl decoration-underline decoration-2"} onClick={()=>setActiveLink(nav)}>{nav}</p>
             </>
           )
         }
