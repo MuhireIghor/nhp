@@ -2,7 +2,7 @@ import React from "react";
 import brideImage from '../assets/feastDressing.png'
 const Aboutus = () =>{
     return(
-        <div className="flex items-center items-between bg-black p-4 gap-6 ">
+        <div id="About" className="flex items-center items-between bg-black p-4 gap-6 ">
             <img src={brideImage} className="w-1/2 h-[30rem]" />
             <div className="bg-[#C4C4C4] w-1/3 h-[32rem] flex flex-col p-4 items-center gap-6  ">
 <p className="text-black font-bold text-2xl flex  p-6">ABOUT US</p>

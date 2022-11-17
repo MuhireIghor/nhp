@@ -3,7 +3,7 @@ import { adminAddress } from "../data/Links";
 import { socialMedia } from "../data/Links";
 const Footbar = () => {
     return (
-        <div className="flex  px-32 py-2 justify-between bg-black text-white ">
+        <div id="Contacts" className="flex  px-32 py-2 justify-between bg-black text-white ">
 
             <div className="flex flex-col items-start justify-center gap-1">
                 <div className="flex flex-col">
@@ -17,7 +17,7 @@ const Footbar = () => {
                 </div>
                 <div>
                     <p className="text-[25px] font-bold">Social Media</p>
-                    <div className="flex gap- py-1">
+                    <div className="flex gap-4 py-1">
                         {socialMedia.map((slink, index) => (
                             <img key={index} src={slink} />
                         ))}
