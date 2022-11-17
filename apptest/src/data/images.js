@@ -1,3 +1,23 @@
-export const images = [
-    "../../src/assets/WhatsApp Image 2022-10-24 at 8.31 10.png","../../src/assets/nhnMenStaff.png","../../src/assets/WhatsApp Image 2022-10-24 at 8.31 11.png","../../src/assets/WhatsApp Image 2022-10-24 at 8.31 7.png","../../src/assets/WhatsApp Image 2022-10-24 at 8.31 12.png","../../src/assets/WhatsApp Image 2022-10-24 at 8.31 9.png","../../src/assets/ Rectangle 6.png","../../src/assets/Rectangle 6.png"
+export const serviceImages = [
+    {
+        imgUrl:"../../src/assets/feastDressing.png",
+        title:"Feast Dressing",
+        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quae fugit, magnam quos veniam adipisci."
+    },
+    {
+        imgUrl:"../../src/assets/nhnMenStaff.png",
+        title:"Men Ceremonial Dressing",
+        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quae fugit, magnam quos veniam adipisci."
+    },
+    {
+        imgUrl:"../../src/assets/PartyDressing.png",
+        title:"Party Dressing",
+        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quae fugit, magnam quos veniam adipisci."
+    },
+    {
+        imgUrl:"../../src/assets/PhotoEditing.png",
+        title:"Photo Editing",
+        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quae fugit, magnam quos veniam adipisci."
+    },
+
 ]
