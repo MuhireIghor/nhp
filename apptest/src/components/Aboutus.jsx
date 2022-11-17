@@ -1,5 +1,5 @@
 import React from "react";
-import brideImage from '../assets/bride1.png'
+import brideImage from '../assets/feastDressing.png'
 const Aboutus = () =>{
     return(
         <div className="flex items-center items-between bg-black p-4 gap-6 ">
