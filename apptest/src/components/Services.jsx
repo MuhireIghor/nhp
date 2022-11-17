@@ -10,7 +10,7 @@ const Services = () => {
         <Carousel className='h-[20px]'>
             {images.map((image,index)=>(
              <div key={index}>
-<img src={image} />
+<img src={image} className="w-[30px]" />
              </div>
             ))}
         </Carousel>
