@@ -11,7 +11,7 @@ const Navbar = () => {
       {navLinks.map((nav, index) => {
         if (index !== 2) {
           return (
-            <a href={`#${nav}`} key={index} className={activeLink === nav ? 'text-white font-bold font-medium text-xl underline decoration-white decoration-2 decoration-none' : 'text-white font-medium text-xl link'} onClick={() => setActiveLink(nav)}>{nav}</a>
+            <a href={`#${nav}`} key={index} className={activeLink === nav ? 'text-white font-bold font-medium text-xl underline decoration-white decoration-2 decoration-none hover:text-black' : 'text-white font-medium text-xl link hover:text-black'} onClick={() => setActiveLink(nav)}>{nav}</a>
           )
         } else {
           return (

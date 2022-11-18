@@ -1,7 +1,7 @@
 import React from 'react'
-import ReactImageGallery from 'react-image-gallery';
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css"
+// import ReactImageGallery from 'react-image-gallery';
+// import { Carousel } from 'react-responsive-carousel';
+// import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { serviceImages } from '../data/images'
 
 const Services = () => {
