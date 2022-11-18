@@ -1,9 +1,0 @@
-{
-  "name": "apptest",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react-image-gallery": "^1.2.11",
-    "react-responsive-carousel": "^3.2.23"
-  }
-}

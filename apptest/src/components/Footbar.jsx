@@ -1,6 +1,7 @@
 import { links } from "../data/Links";
 import { adminAddress } from "../data/Links";
 import { socialMedia } from "../data/Links";
+import '../styles/index.css';
 const Footbar = () => {
     return (
         <div id="Contacts" className="flex  px-32 py-2 justify-between bg-black text-white ">
@@ -10,7 +11,7 @@ const Footbar = () => {
                     <p className="text-[25px] font-bold">LINKS</p>
                     <div className="flex flex-col items-start gap-1 ">
                         {links.map((link, index) => (
-                            <p className="hover:underline decoration-[#C4C4C4] decoration-[1px] hover:text-[gray]" key={index}>{link}</p>
+                            <a href={`#${link}`} className="hover:underline decoration-[#C4C4C4] decoration-[1px] hover:text-[gray] link" key={index}  >{link}</a>
                         ))}
 
                     </div>
