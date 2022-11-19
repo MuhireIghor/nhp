@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState,useRef,useEffect } from 'react';
-import '../styles/index.css';
 import { navLinks } from '../data/NavLinks';
 import logo from '../assets/musta.png'
 import {FiMenu} from 'react-icons/fi';
