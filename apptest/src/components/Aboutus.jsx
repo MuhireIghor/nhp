@@ -1,8 +1,8 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import brideImage from '../assets/WhatsApp Image 2022-10-24 at 8.31 10.png';
-import camImage from '../assets/PhotoEditing.png';
-import menImage from '../assets/PartyDressing.png'
+import brideImage from '../../src/assets/WhatsApp Image 2022-10-24 at 8.31 10.png';
+import camImage from '../../src/assets/PhotoEditing.png';
+import menImage from '../../src/assets/PartyDressing.png'
 const Aboutus = () => {
     return (
         <div
