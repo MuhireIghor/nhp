@@ -1,8 +1,5 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import brideImage from '../../public/WhatsApp Image 2022-10-24 at 8.31 10.png';
-import camImage from '../../public/PhotoEditing.png';
-import menImage from '../../public/PartyDressing.png'
 const Aboutus = () => {
     return (
         <div
@@ -32,15 +29,15 @@ export const SlideShow = () => (
     <Carousel showThumbs={false} autoPlay infiniteLoop labels={{}}
      showStatus={false} stopOnHover swipeable showIndicators={false} >
         <div>
-            <img src={brideImage} className='w-full h-[30rem]' />
+            <img src='/WhatsApp Image 2022-10-24 at 8.31 10.png' className='w-full h-[30rem]' />
 
         </div>
         <div>
-            <img src={camImage} className='w-full h-[30rem]' />
+            <img src='/PhotoEditing.png' className='w-full h-[30rem]' />
     
         </div>
         <div>
-            <img src={menImage} className='w-full h-[30rem]' />
+            <img src='/PartyDressing.png' className='w-full h-[30rem]' />
         </div>
     </Carousel>
 );

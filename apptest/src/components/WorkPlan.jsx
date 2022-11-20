@@ -1,4 +1,3 @@
-import MenStaff from '../../public/nhnMenStaff.png'
 const WorkPlace = ()=>{
     return(
         <div className="flex items-between justify-between h-[32rem] bg-[#E5E5E5]  gap-12 p-4">
@@ -10,7 +9,7 @@ const WorkPlace = ()=>{
 </div>
             </div>
 <div className="flex flex-col w-full h-full items-end ">
-    <img src={MenStaff} className="h-full" />
+    <img src='/nhnMenStaff.png' className="h-full" />
 </div>
         </div>
     )
