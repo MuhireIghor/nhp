@@ -1,15 +1,15 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import brideImage from '../../src/assets/WhatsApp Image 2022-10-24 at 8.31 10.png';
-import camImage from '../../src/assets/PhotoEditing.png';
-import menImage from '../../src/assets/PartyDressing.png'
+import brideImage from '../assets/WhatsApp Image 2022-10-24 at 8.31 10.png';
+import camImage from '../assets/PhotoEditing.png';
+import menImage from '../assets/PartyDressing.png'
 const Aboutus = () => {
     return (
         <div
             id='About'
             className='flex items-start bg-black p-4 gap-6 justify-center'
         >
-            <img src={brideImage} className="w-1/2 h-[30rem]" />
+  
             <div className='bg-[#C4C4C4] w-1/3 h-[32rem] flex flex-col p-4 items-center gap-6  '>
                 <p className='text-black font-bold text-2xl flex  p-6'>ABOUT US</p>
                 <p className='text-md'>
