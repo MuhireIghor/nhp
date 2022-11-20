@@ -1,4 +1,4 @@
-import MenStaff from '../assets/nhnMenStaff.png'
+import MenStaff from '../../public/nhnMenStaff.png'
 const WorkPlace = ()=>{
     return(
         <div className="flex items-between justify-between h-[32rem] bg-[#E5E5E5]  gap-12 p-4">

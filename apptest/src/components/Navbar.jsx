@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState,useRef,useEffect } from 'react';
 import { navLinks } from '../data/NavLinks';
-import logo from '../assets/musta.png'
+import logo from '../../public/musta.png'
 import {FiMenu} from 'react-icons/fi';
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState("Home");
