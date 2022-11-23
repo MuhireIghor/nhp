@@ -19,7 +19,7 @@ const Navbar = () => {
       <img src='/musta.png' className="w-12 h-12" />
       {responsive && (
 
-        <div ref={dropDownNav} className='absolute bg-white flex flex-col top-24 right-4 space-x-6 text-sm text-[gray]'>
+        <div ref={dropDownNav} className='absolute bg-white flex flex-col top-24 right-4 space-x-6 text-sm text-[gray] z-10 text-center'>
           {navLinks.map((link, index) => {
             return (
               <a href={`#${link}`} key={index} className={activeLink === link ? ' text-center text-black font-bold font-medium text-xl underline decoration-white decoration-2 decoration-none hover:text-black' : ' text-center text-[gray] font-medium text-xl link hover:text-black'} onClick={() => setActiveLink(nav)}>{link}</a>

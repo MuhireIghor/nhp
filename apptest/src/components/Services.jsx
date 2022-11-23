@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div id="Services" className='flex flex-col p-4 bg-[#E5E5E5] gap-4 '>
       <p className='text-[25px] font-bold '>OUR SERVICES</p>
-      <div className='flex items-center grid grid-cols-4 md:grid-cols-2 gap-6'>
+      <div className='flex items-center grid grid-cols-4 md:grid-cols-2 gap-6 sm:grid-cols-1 sm:p-4'>
         {
           serviceImages.map((service, index) => (
             <div key={index} className="flex flex-col gap-4 border-2 border-[#C4C4C4] shadow-md p-6 rounded-[10px]">

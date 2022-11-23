@@ -3,7 +3,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { FiPhoneCall } from 'react-icons/fi';
 const Contacts = () => {
     return (
-        <div id='Contact' className="flex flex-col p-12 bg-[#E5E5E5] ">
+        <div id='Contact' className="flex flex-col p-12 bg-[#E5E5E5] md:p-6 sm:p-3 md:p-6 ">
             <p className='text-center text-[18px] font-bold'>Contact</p>
             <p className='text-[14px] font-semibold'>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
             <div className="flex justify-between p-4 md:flex-col md:gap-4 ">
@@ -40,7 +40,7 @@ const Contacts = () => {
 
                 <div className='flex flex-col bg-[#C4C4C4]  p-8 items-center space-y-4' >
 
-                    <div className='flex justify-between items-center gap-4  '>
+                    <div className='flex justify-between items-center gap-4 w-full  '>
                         <input type="text" required placeholder='Your Name' className='p-4 rounded' />
                         <input type="email" required placeholder='Your Email' className='p-4 rounded' />
                     </div>

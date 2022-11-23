@@ -5,7 +5,6 @@ import '../styles/index.css';
 const Footbar = () => {
     return (
         <div id="Contacts" className="flex  px-32 py-2 justify-between bg-black text-white ">
-
             <div className="flex flex-col items-start justify-center gap-1">
                 <div className="flex flex-col">
                     <p className="text-[25px] font-bold">LINKS</p>
@@ -13,7 +12,6 @@ const Footbar = () => {
                         {links.map((link, index) => (
                             <a href={`#${link}`} className="hover:underline decoration-[#C4C4C4] decoration-[1px] hover:text-[gray] link" key={index}  >{link}</a>
                         ))}
-
                     </div>
                 </div>
                 <div>
@@ -35,20 +33,15 @@ const Footbar = () => {
                         <div className="flex flex-col items-start w-full pr-16">
                             <p className="text-[18px] font-semibold ">Phone</p>
                         </div>
-
                     </div>
                     {adminAddress.map((admin, index) => (
                         <div key={index} className="flex gap-16 py-1 ">
                             <p className="text-[14px] font-semibold">{admin.name}</p>
                             <p className="text-[14px] font-semibold">{admin.email}</p>
-
                         </div>
-
                     ))}
                 </div>
-
             </div>
-
         </div>
     )
 }
