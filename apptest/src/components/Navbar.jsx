@@ -5,6 +5,16 @@ import { FiMenu } from 'react-icons/fi';
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState("Home");
   const [responsive, setResponsive] = useState(false);
+  const[color,setColor] = useState(false);
+
+    document.onscroll = (e)=>{
+      if(window.scrollY >140){
+        setColor(true);
+      }else{
+        setColor(false);
+      }
+    }
+
   const dropDownNav = useRef(null);
   useEffect(() => {
     const clickEvent = document.addEventListener("mousedown", (event) => {
@@ -15,7 +25,7 @@ const Navbar = () => {
     return document.removeEventListener("mousedown", () => clickEvent)
   })
   return (
-    <div className='bg-[#797979] flex p-4 items-center justify-between '>
+    <div className={!color?'bg-[#797979] flex p-4 items-center justify-between fixed z-40 w-full':"bg-black flex p-4 items-center justify-between fixed z-40 w-full"}>
       <img src='/musta.png' className="w-12 h-12" />
       {responsive && (
 
@@ -33,13 +43,13 @@ const Navbar = () => {
       {navLinks.map((nav, index) => {
         if (index !== 2) {
           return (
-            <a href={`#${nav}`} key={index} className={activeLink === nav ? 'text-white font-bold font-medium text-xl underline decoration-white decoration-2 decoration-none hover:text-black md:hidden' : 'text-white font-medium text-xl link hover:text-black md:hidden'} onClick={() => setActiveLink(nav)}>{nav}</a>
+            <a href={`#${nav}`} key={index} className={activeLink === nav ? 'text-white font-bold font-medium text-xl underline decoration-white decoration-2 decoration-none hover:text-black md:hidden' : `text-white font-medium text-xl link  ${color ?"hover:text-[gray]":"hover:text-black"}  md:hidden`} onClick={() => setActiveLink(nav)}>{nav}</a>
           )
         } else {
           return (
             <>
               <p className='text-3xl font-semibold mb-4 text-white flex flex-wrap'>NEW HEAVEN <br /> PROTOCOL</p>
-              <a href={`#${nav}`} key={index} className={activeLink === nav ? "text-white font-bold font-medium text-xl underline decoration-white decoration-2 md:hidden " : "text-white font-medium text-xl link md:hidden hover:text-black"} onClick={() => setActiveLink(nav)}>{nav}</a>
+              <a href={`#${nav}`} key={index} className={activeLink === nav ? "text-white font-bold font-medium text-xl underline decoration-white decoration-2 md:hidden " : `text-white font-medium text-xl link md:hidden hover:text-black  ${color ?"hover:text-[gray]":"hover:text-black"}`} onClick={() => setActiveLink(nav)}>{nav}</a>
             </>
           )
         }

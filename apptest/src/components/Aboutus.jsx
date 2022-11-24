@@ -4,10 +4,10 @@ const Aboutus = () => {
     return (
         <div
             id='About'
-            className='flex items-start bg-black p-4 gap-6 justify-center'
+            className='flex items-start bg-black p-4 gap-6 justify-center mt-36'
         >
   
-            <div className='bg-[#C4C4C4] w-1/3 h-[32rem] flex flex-col p-4 items-center gap-6 md:gap-4 sm:gap-2 md:p-2 sm:p-3 sm:w-2/3  '>
+            <div className='bg-[#C4C4C4] w-1/3 h-[32rem] flex flex-col p-4 items-center gap-6 md:gap-4 sm:gap-2 md:p-2 sm:p-3 sm:w-2/3   '>
                 <p className='text-black font-bold text-2xl flex  p-6 sm:text-start'>ABOUT US</p>
                 <p className='text-md'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ac
